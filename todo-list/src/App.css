@@ -1,0 +1,57 @@
+body{
+    background-color: aqua;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, 
+        Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border: 2px solid #FFF;
+}
+input[type="button"]{
+    background-color: #06F;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border: 2px solid #FFF;
+    margin-left: -2px;
+}
+
+button{
+    background-color: #06F;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border: 2px solid #FFF;
+}
+
+form label{
+    color: red;
+    font-size: 20px;
+}
+
+ul{
+    margin: 0 20%;
+    list-style-type: none;
+    padding: 10px ;
+}
+
+li{
+    padding: 10px;
+    background-color: #FFF;
+    border: 1px solid white;
+    margin-bottom:1px;
+}
+
+
+input[type="checkbox"]{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.done{
+    text-decoration: line-through;
+}
